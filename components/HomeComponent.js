@@ -60,10 +60,9 @@ export default function HomeComponent() {
                         <img src="bernhardt.png" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="sponsor2dummy.png" />
+                        <img src="finning.png" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="sponsor3dummy.png" style={{display: "none"}} />
                         <p>Could Be You Here...</p>
                     </div>
                 </div>
