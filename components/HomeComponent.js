@@ -57,12 +57,10 @@ export default function HomeComponent() {
                 </div>
                 <div className="sponsorsSection">
                     <div className="sponsorContainer">
-                        <img src="sponsor1dummy.png" style={{display: "none"}}/>
-                        <p>Could Be You Here...</p>
+                        <img src="bernhardt.png" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="sponsor2dummy.png" style={{display: "none"}} />
-                        <p>Could Be You Here...</p>
+                        <img src="sponsor2dummy.png" />
                     </div>
                     <div className="sponsorContainer">
                         <img src="sponsor3dummy.png" style={{display: "none"}} />
