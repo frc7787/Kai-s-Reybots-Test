@@ -60,7 +60,7 @@ export default function HomeComponent() {
                         <img src="bernhardt.png" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="finning.png" />
+                        <img src="finning.jpg" />
                     </div>
                     <div className="sponsorContainer">
                         <p>Could Be You Here...</p>
