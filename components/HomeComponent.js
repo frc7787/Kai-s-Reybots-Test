@@ -289,7 +289,7 @@ export default function HomeComponent() {
                     </div>
 
                 </div>
-            </section> {/**/}
+            </section>
         </main>
     )
 }
