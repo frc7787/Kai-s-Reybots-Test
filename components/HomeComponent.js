@@ -7,7 +7,7 @@ export default function HomeComponent() {
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
                 <p className="homeDescription">Our teams central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
-                <a href="about">
+                <a href="#about">
                     <button className="homeAboutButton">About</button>        
                 </a>
                 <div className="homeImageGrid">
