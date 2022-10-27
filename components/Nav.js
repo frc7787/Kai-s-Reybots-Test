@@ -15,41 +15,41 @@ export default function Nav() {
     return (
         <>
             <nav>
-                <a href="#home">
+                <a href="/#home">
                     <div className="navGroup1">
-                        <img src="logo.svg" alt="reybots logo" />
+                        <img src="/logo.svg" alt="reybots logo" />
                         <p>Reybots</p>
                     </div>
                 </a>
                 <div className="navGroup2">
-                    <a href="#home">
+                    <a href="/#home">
                         <div className="navElementContainer">
                             <p>Home</p>
                         </div>
                     </a>
-                    <a href="#competitions">
+                    <a href="/#competitions">
                         <div className="navElementContainer">
                             <p>Competitions</p>
                         </div>
                     </a>
-                    <a href="#sponsors">
+                    <a href="/#sponsors">
                         <div className="navElementContainer">
                             <p>Sponsors</p>
                         </div>
                     </a>
-                    <a href="#about">
+                    <a href="/#about">
                         <div className="navElementContainer">
                             <p>About</p>
                         </div>
                     </a>
-                    <a href="#pricing">
+                    <a href="/get-started">
                         <div className="navElementContainer">
-                            <p>Pricing</p>
+                            <p>Sponsor Us</p>
                         </div>
                     </a>
                 </div>
                 <div className="navGroup2">
-                    <a href="#contact">
+                    <a href="/#contact">
                         <div className="navElementContainer">
                             <p>Contact</p>
                         </div>
@@ -63,33 +63,32 @@ export default function Nav() {
             </nav>
             <div className={dropdownState ? "dropdown dropdownClosed" : "dropdown dropdownOpen"}>
                 <div className="dropdownElements">
-                    <a href="#home" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <a href="/#home" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Home</p>
                     </a>
-                    <a href="#competition" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <a href="/#competition" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Competitions</p>
                     </a>
-                    <a href="#sponsors" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <a href="/#sponsors" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Sponsors</p>
                     </a>
-                    <a href="#about" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <a href="/#about" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">About</p>
                     </a>
-                    <a href="#pricing" onClick={() => changeDropdownStateFunction(!dropdownState)}>
-                        <p className="dropdownElement">Pricing</p>
+                    <a href="/get-started" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                        <p className="dropdownElement">Sponsor Us</p>
                     </a>
-                    <a href="#contact" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <a href="/#contact" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Contact</p>
                     </a>
                     <div className="dropdownSocials">
-                        <button className="socialButton">
-                            <i class="fa-brands fa-instagram"></i>
-                        </button>
+                        <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer">
+                            <button className="socialButton">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                        </Link>
                         <button className="socialButton">
                             <i class="fa-brands fa-youtube"></i>
-                        </button>
-                        <button className="socialButton">
-                            <i class="fa-brands fa-twitter"></i>
                         </button>
                     </div>
                 </div>
