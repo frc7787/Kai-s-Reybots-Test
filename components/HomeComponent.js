@@ -82,7 +82,7 @@ export default function HomeComponent() {
             </section> 
             <section className="pricingMain" id="pricing">
                 <div className="pricingHeaders">
-                    <h1>Pricing</h1>
+                    <h1>Sponsor Us</h1>
                     <p>Help us fund our new robots for 2022 and also receive fantastic benefits in the process!</p>
                 </div>
                 <div className="pricingComponents">
@@ -109,7 +109,7 @@ export default function HomeComponent() {
                                     <p>Certificate of appreciation that can be displayed at your business!</p>
                                 </div>
                             </div>
-                            <Link href="mailto:evanmoll@sd61.bc.ca">
+                            <Link href="/get-started">
                                 <button className="pricingComponentButton">Get Started</button>
                             </Link>
                         </div>
@@ -143,7 +143,7 @@ export default function HomeComponent() {
                                     <p>Photo with the Reybots team!</p>
                                 </div>
                             </div>
-                            <Link href="mailto:evanmoll@sd61.bc.ca">
+                            <Link href="/get-started">
                                 <button className="pricingComponentButton">Get Started</button>
                             </Link>
                         </div>
@@ -177,7 +177,7 @@ export default function HomeComponent() {
                                     <p>Photo with the Reybots team!</p>
                                 </div>
                             </div>
-                            <Link href="mailto:evanmoll@sd61.bc.ca">
+                            <Link href="/get-started">
                                 <button className="pricingComponentButton">Get Started</button>
                             </Link>
                         </div>
@@ -223,7 +223,7 @@ export default function HomeComponent() {
                                     <p>Photo with the Reybots team!</p>
                                 </div>
                             </div>
-                            <Link href="mailto:evanmoll@sd61.bc.ca">
+                            <Link href="/get-started">
                                 <button className="pricingComponentButton">Get Started</button>
                             </Link>
                         </div>
@@ -281,7 +281,7 @@ export default function HomeComponent() {
                                     <p>Photo with the Reybots team!</p>
                                 </div>
                             </div>
-                            <Link href="mailto:evanmoll@sd61.bc.ca">
+                            <Link href="/get-started">
                                 <button className="pricingComponentButton">Get Started</button>
                             </Link>
                         </div>

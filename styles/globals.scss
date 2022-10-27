@@ -65,9 +65,6 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-main {
-  width: 100%;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -562,6 +559,161 @@ footer {
   gap: 50px;
   margin-top: 80px;
 }
+.startedFormDetails {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.getStartedInformation {
+  max-width: 1000px;
+  color: $black;
+  line-height: 25px;
+}
+.getStartedHeaders {
+  @extend .compeitionsHeaders;
+  margin-bottom: 100px;
+}
+.getStartedButtons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+
+  button {
+    width: 250px;
+    height: 65px;
+    background: $black;
+    border-radius: 10px;
+    color: $white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.5s;
+    border: none;
+    outline: none;
+
+    &:hover {
+      background: rgb(54, 54, 54);
+    }
+  }
+}
+.getStartedAllInformation {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0px 25px;
+}
+.getStartedInformationHeader {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.getStartedBudget {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #D5D5D5;
+  margin-top: 50px;
+}
+.getStartedBudgetElement {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #D5D5D5;
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+
+  &:last-child {
+    border-bottom: 0px;
+
+    .getStartedBudgetHeader, .getStartedBudgetCost {
+      font-weight: 700;
+    }
+  }
+}
+.getStartedBudgetHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  text-align: left;
+}
+.getStartedBudgetCost {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding: 10px 10px;
+  border-left: 1px solid #D5D5D5;
+}
+.getStartedInformationBenefits {
+  margin-top: 50px;
+  max-width: 700px;
+  text-align: left;
+
+  strong {
+    font-weight: 700;
+  }
+
+  ul {
+    list-style-type: circle;
+    margin-left: 40px;
+  }
+}
+.getStartedInformationHeaderBenefits {
+  margin-top: 100px;
+}
+.chequeComponent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px 25px;
+}
+.chequePaymentInformation {
+  @extend .getStartedInformation;
+}
+.chequePaymentHeaders {
+  @extend .getStartedHeaders;
+}
+.chequeForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 50px;
+}
+.chequeFormButton {
+  width: 250px;
+  height: 65px;
+  margin-top: 100px;
+  background: $black;
+  border-radius: 10px;
+  color: $white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.5s;
+  border: none;
+  outline: none;
+
+  &:hover {
+    background: rgb(54, 54, 54);
+  }
+}
+.onlineComponent {
+  @extend .chequeComponent;
+}
+.onlinePaymentHeaders {
+  @extend .getStartedHeaders;
+}
+.onlinePaymentInformation {
+  @extend .getStartedInformation;
+
+  strong {
+    font-weight: 700;
+  }
+}
+.onlinePaymentMethod {
+  @extend .chequeFormButton;
+}
 
 
 
@@ -703,6 +855,12 @@ footer {
     font-size: 30px;
     line-height: 40px;
   }
+  .getStartedInformation {
+    font-size: 13px;
+  }
+  .getStartedAllInformation {
+    padding: 0px 10px;
+  }
 }
 @media screen and (max-width: 500px) {
   .homeMain {
@@ -760,6 +918,16 @@ footer {
   .dropdownSocials {
     gap: 35px;
   }
+  .getStartedInformationHeaderBenefits {
+    font-size: 25px;
+  }
+  .getStartedBudgetHeader {
+    font-size: 13px;
+  }
+  .getStartedBudgetCost {
+    padding: 10px 5px;
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 325px) {
   .pricingComponentGold {
@@ -787,5 +955,13 @@ footer {
   }
   .dropdownElement {
     font-size: 30px;
+  }
+}
+@media screen and (max-height: 650px) {
+  .dropdown  {
+    padding: 75px 85px;
+  }
+  .dropdownSocials {
+    margin-top: 35px;
   }
 }
