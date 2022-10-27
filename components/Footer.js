@@ -5,9 +5,9 @@ export default function Footer() {
     return (
         <footer id="contact">
             <p className="footerHeader">Interested in Funding Our Team?</p>
-            <a href="/get-started">
+            <Link href="/get-started">
                <button className="footerPricingButton">Sponsor Us!</button> 
-            </a>
+            </Link>
             <div className="footerElements">
                 <div className="footerElement1">
                     <p className="footerContactSubheader">Contact Us</p>
