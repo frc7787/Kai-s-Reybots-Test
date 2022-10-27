@@ -7,7 +7,9 @@ export default function HomeComponent() {
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
                 <p className="homeDescription">Our teams central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
-                <button className="homeAboutButton">About</button>
+                <a href="#about">
+                    <button className="homeAboutButton">About</button>        
+                </a>
                 <div className="homeImageGrid">
                     <img src="1.png" />
                     <img src="2.png" />
@@ -55,15 +57,12 @@ export default function HomeComponent() {
                 </div>
                 <div className="sponsorsSection">
                     <div className="sponsorContainer">
-                        <img src="sponsor1dummy.png" style={{display: "none"}}/>
-                        <p>Could Be You Here...</p>
+                        <img src="bernhardt.png" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="sponsor2dummy.png" style={{display: "none"}} />
-                        <p>Could Be You Here...</p>
+                        <img src="finning.jpg" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="sponsor3dummy.png" style={{display: "none"}} />
                         <p>Could Be You Here...</p>
                     </div>
                 </div>
